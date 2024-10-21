@@ -7,7 +7,7 @@ class NameLoadTest {
 
     @Test
     void checkEmpty() {
-        Nameload nameLoad = new NameLoad();
+        NameLoad nameLoad = new NameLoad();
         assertThatThrownBy(nameLoad::getMap)
                 .isInstanceOf(IllegalStateException.class)
                 .hasMessageContaining("no data");
