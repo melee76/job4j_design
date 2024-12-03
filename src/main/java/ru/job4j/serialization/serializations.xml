@@ -1,0 +1,8 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+<pupil sex="false" form="7">
+    <school number="627"/>
+    <parents>
+        <parent>Alex</parent>
+        <parent>Nina</parent>
+    </parents>
+</pupil>
